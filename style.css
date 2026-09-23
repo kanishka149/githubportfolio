@@ -1,1 +1,208 @@
+/* =========================
+   GENERAL
+   ========================= */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+
+/* =========================
+   HEADER / NAME
+   ========================= */
+
+h1 {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding: 40px 20px 15px;
+}
+
+body > p {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 20px 40px;
+}
+
+
+/* =========================
+   ALL HEADINGS
+   ========================= */
+
+h2 {
+    color: #1e3a8a;
+    font-size: 28px;
+    border-bottom: 3px solid #1e3a8a;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+
+/* =========================
+   ABOUT ME
+   ========================= */
+
+h2:nth-of-type(1) {
+    background-color: #e8f1ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(1) + p {
+    background-color: white;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 1.8;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+
+/* =========================
+   EDUCATION
+   ========================= */
+
+h2:nth-of-type(2) {
+    background-color: #e9f9ef;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(2) + p {
+    background-color: white;
+    padding: 25px;
+    font-size: 18px;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+
+/* =========================
+   SKILLS
+   ========================= */
+
+h2:nth-of-type(3) {
+    background-color: #fff4df;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(3) + ul {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+h2:nth-of-type(3) + ul li {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    margin: 7px;
+    border-radius: 20px;
+}
+
+
+/* =========================
+   PROJECTS
+   ========================= */
+
+h2:nth-of-type(4) {
+    background-color: #f3eaff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(4) + ul {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+h2:nth-of-type(4) + ul li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+
+/* =========================
+   ACHIEVEMENTS
+   ========================= */
+
+h2:nth-of-type(5) {
+    background-color: #ffecec;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(5) + ul {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+h2:nth-of-type(5) + ul li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+
+/* =========================
+   CONTACT
+   ========================= */
+
+h2:nth-of-type(6) {
+    background-color: #e5f7fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2:nth-of-type(6) + ul {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #d5d9df;
+}
+
+h2:nth-of-type(6) + ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    body > p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h2:nth-of-type(3) + ul li {
+        display: block;
+        text-align: center;
+    }
+}
